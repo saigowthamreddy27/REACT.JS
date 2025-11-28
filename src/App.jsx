@@ -10,6 +10,7 @@ function App() {
   function handleClick(selectedButton) {
     setSelectedTopic(selectedButton);
     console.log(`You clicked the ${selectedButton} button`);
+    console.log("hello")
   }
 
   return (
