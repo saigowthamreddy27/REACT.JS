@@ -1,6 +1,6 @@
-import "./CoreConcepts.css";
+import "./CoreConcept.css";
 
-function CoreConcepts(props) {
+function CoreConcept(props) {
   const { image, title, description } = props;
   return (
     <li>
@@ -10,4 +10,4 @@ function CoreConcepts(props) {
     </li>
   );
 }
-export default CoreConcepts;
+export default CoreConcept;
